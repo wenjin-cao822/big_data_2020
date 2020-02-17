@@ -1,0 +1,127 @@
+###########################
+#Linux Specific GitIgnore #
+###########################
+.*
+!.gitignore
+*~
+*.sw[a-p]
+
+# KDE
+.directory
+
+################
+# CDT-specific #
+################
+.cproject
+
+###########
+# Pychame #
+###########
+*.iws
+*workspace.xml
+*tasks.xml
+
+############################
+#Spyder Specific GitIgnore#
+############################
+*.settings/
+*.spyderproject
+
+###################
+#IPython Notebooks#
+###################
+*__pycache__
+
+
+##################
+# GRID Specifics #
+##################
+*sge*
+=======
+/test.aux
+/test.dvi
+/test.log
+
+###########
+# R Files #
+###########
+# History files
+*.Rhistory
+*.Rapp.history
+
+# Session Data files
+*.RData
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user
+.Rproj.user/
+*.Rproj.user*
+
+# produced vignettes
+vignettes/*.html
+vignettes/*.pdf
+
+# OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
+.httr-oauth
+
+# knitr and R markdown default cache directories
+/*_cache/
+/cache/
+
+# Temporary files created by R markdown
+*.utf8.md
+*.knit.md
+
+# Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
+rsconnect/
+
+#########
+# Latex #
+#########
+paper/auto
+*.aux
+*.glo
+*.idx
+*.log
+*.toc
+*.ist
+*.acn
+*.acr
+*.alg
+*.bbl
+*.blg
+*.dvi
+*.glg
+*.gls
+*.ilg
+*.ind
+*.lof
+*.lot
+*.maf
+*.mtc
+*.mtc1
+*.out
+*.synctex.gz
+*.ent
+*.nav
+*.snm
+*.vrb
+*.fls
+*.fdb_latexmk
+*.rel
+*.*~
+.DS_Store
+/.project
+/.texlipse
+/.settings/
+
+
